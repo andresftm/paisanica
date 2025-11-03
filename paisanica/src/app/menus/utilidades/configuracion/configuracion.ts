@@ -1,0 +1,13 @@
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+@Component({
+  selector: 'app-configuracion',
+  standalone: true,
+  imports: [CommonModule],
+  templateUrl: './configuracion.html',
+  styleUrls: ['./configuracion.css'],
+})
+export class ConfiguracionComponent {
+  // Componente mínimo para la pantalla de configuración.
+}
